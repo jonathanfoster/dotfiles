@@ -1,8 +1,14 @@
-" Vim
+" UI
 syntax enable		" Enable syntax highlighting
 set number		" Show line numbers
 set nocursorline	" Highlight current line
 set showmatch		" Highlight matching parenthesis
+filetype indent on	" Load indent files based on file type
+
+" Tabs & Spaces
+set tabstop=4		" Number of visual spaces per tab
+set softtabstop=4	" Number of spaces in tab when editing
+set expandtab		" Tabs are spaces
 
 " Pathogen
 execute pathogen#infect()
