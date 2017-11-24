@@ -1,5 +1,6 @@
 [user]
-	email = jonathan.e.foster@gmail.com
-	name = Jonathan Foster
+    email = jonathan.e.foster@gmail.com
+    name = Jonathan Foster
 [diff]
-	tool = vimdiff
+    tool = vimdiff
+
