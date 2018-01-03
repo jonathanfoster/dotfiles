@@ -23,6 +23,6 @@ let NERDTreeShowHidden=1        " Show hidden files
 call plug#begin()
 Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'faith/vim-go'
+Plug 'fatih/vim-go'
 call plug#end()
 
