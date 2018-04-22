@@ -1,9 +1,12 @@
 [user]
     email = jonathan.e.foster@gmail.com
     name = Jonathan Foster
-[diff]
-    tool = vimdiff
-
 [push]
     default = simple
-
+[merge]
+    tool = kdiff3
+[alias]
+    ll = log --all --decorate --oneline --graph
+[diff]
+    guitool = kdiff3
+    tool = vimdiff
