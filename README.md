@@ -9,9 +9,11 @@
 make install
 ```
 
+Note: `.vimrc` uses [vim-plug](https://github.com/junegunn/vim-plug) so you must run `:PlugInstall` in vim to install plugins.
+
 ## Updating Dotfiles
 
-1. Make changes locally
+1. Make changes locally in your home directory
 
 ```
 vim ~/.vimrc
