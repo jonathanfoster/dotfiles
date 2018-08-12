@@ -11,19 +11,19 @@ make install
 
 ## Updating Dotfiles
 
-* Make changes locally
+1. Make changes locally
 
 ```
 vim ~/.vimrc
 ```
 
-* Update dotfiles source
+2. Update dotfiles source
 
 ```
 make update
 ```
 
-* Commit and push
+3. Commit and push
 
 ```
 git add -A
