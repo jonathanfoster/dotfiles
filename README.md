@@ -31,3 +31,5 @@ git commit -m 'Update dotfiles'
 git push
 ```
 
+Note: When adding a new dotfile, you must add copy operations to `Makefile`.
+
