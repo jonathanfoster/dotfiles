@@ -10,10 +10,6 @@ set tabstop=4       " Number of visual spaces per tab
 set softtabstop=4   " Number of spaces in tab when editing
 set expandtab       " Convert tabs to spaces
 
-" Pathogen
-execute pathogen#infect()
-call pathogen#helptags()
-
 " NERDTree
 map <C-n> :NERDTreeToggle<CR>   " Toggle NERDTree with Ctrl-n
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif   " Close Vim if only window open is a NERDTree
