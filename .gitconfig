@@ -1,5 +1,5 @@
 [user]
-    email = jonathan.e.foster@gmail.com
+    email = jonathan@jonathanfoster.io
     name = Jonathan Foster
 [push]
     default = simple
@@ -11,3 +11,13 @@
     guitool = kdiff3
     tool = vimdiff
 
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[core]
+	excludesfile = /Users/jfoster/.gitignore_global
+[commit]
+	template = /Users/jfoster/.stCommitMsg
